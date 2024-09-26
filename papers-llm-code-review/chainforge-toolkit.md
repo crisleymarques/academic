@@ -18,9 +18,9 @@ As ferramentas disponíveis para avaliação geralmente são fechadas ou focadas
 A solução apresentada pelos autores é o ChainForge, uma ferramenta visual de código aberto projetada para facilitar a engenharia de prompts e a realização de testes de hipóteses em LLMs. Permite que usuários, mesmo sem conhecimentos técnicos avançados, realizem uma avaliação sistemática do comportamento dos LLMs, unindo os aspectos de exploração e avaliação. 
 
 Oferece as funcionalidades de:
-- **Comparação cruzada de modelos:** Permite que os usuários testem diferentes LLMs com os mesmos prompts, facilitando a escolha do modelo mais adequado.
-- **Design iterativo de templates:** Usuários podem criar templates de prompts que incorporam variáveis, permitindo uma abordagem mais sistemática na geração de respostas.
-- **Avaliação sistemática:** O sistema suporta o envio de múltiplas consultas parametrizadas e ajuda na navegação e pontuação das respostas, permitindo uma análise mais eficiente.
+* **Comparação cruzada de modelos:** Permite que os usuários testem diferentes LLMs com os mesmos prompts, facilitando a escolha do modelo mais adequado.
+* **Design iterativo de templates:** Usuários podem criar templates de prompts que incorporam variáveis, permitindo uma abordagem mais sistemática na geração de respostas.
+* **Avaliação sistemática:** O sistema suporta o envio de múltiplas consultas parametrizadas e ajuda na navegação e pontuação das respostas, permitindo uma análise mais eficiente.
 
 Combinando a usabilidade das ferramentas de programação visual com recursos poderosos, como o envio simultâneo do mesmo prompt para múltiplos LLMs, busca tornar mais acessível e eficiente a experimentação e caracterização do comportamento dos LLMs.
 
@@ -28,10 +28,10 @@ Combinando a usabilidade das ferramentas de programação visual com recursos po
 ## Quais são os detalhes técnicos dessa solução? O que chama mais atenção? Qual a ideia geral e o que deve ser discutido em mais detalhes?
 
 Tem a seguinte estrutura que oferece flexibilidade para diferentes estilos de uso e objetivos dos usuários:
-- **Seleção de Modelo:** Facilita a comparação do comportamento entre diferentes LLMs, permitindo que os usuários avaliem rapidamente as mudanças entre modelos base e ajustados.
-- **Design de Templates de Prompts:** Ajuda na criação de templates que utilizam variáveis, assegurando que os prompts gerem saídas consistentes em diversos contextos.
-- **Avaliação Sistemática:** Permite o envio de múltiplas consultas parametrizadas, facilitando a navegação e a pontuação das respostas, o que evita a sobrecarga da inspeção manual.
-- **Improvisação:** Suporta testes on-demand, permitindo que os usuários ajustem prompts, troquem modelos ou mudem critérios de avaliação conforme novas hipóteses surgem durante a exploração.
+* **Seleção de Modelo:** Facilita a comparação do comportamento entre diferentes LLMs, permitindo que os usuários avaliem rapidamente as mudanças entre modelos base e ajustados.
+* **Design de Templates de Prompts:** Ajuda na criação de templates que utilizam variáveis, assegurando que os prompts gerem saídas consistentes em diversos contextos.
+* **Avaliação Sistemática:** Permite o envio de múltiplas consultas parametrizadas, facilitando a navegação e a pontuação das respostas, o que evita a sobrecarga da inspeção manual.
+* **Improvisação:** Suporta testes on-demand, permitindo que os usuários ajustem prompts, troquem modelos ou mudem critérios de avaliação conforme novas hipóteses surgem durante a exploração.
 
 Permite a **comparação cruzada de modelos**, possibilitando que usuários testem diferentes LLMs com os mesmos prompts, o que ajuda na seleção do modelo mais adequado. Além disso, o design iterativo de templates permite a criação de prompts com variáveis, promovendo uma abordagem sistemática na geração de respostas.
 
@@ -66,11 +66,6 @@ No geral é útil, especialmente para usuários que não possuem conhecimento t�
 Existe uma dificuldade em compartilhar os resultados com outras pessoas da equipe após a experimentação, pois a ferramenta não oferece uma maneira fácil de exportá-los.
 
 
-## Experimentação
-* A ferramenta está disponível em: [chainforge.ai](https://chainforge.ai/)
-TODO: experimentar a ferramenta e verificar se é possível utilizá-la para avaliação de LLMs.
-
-
 ## Ameaças à validade na avaliação
 * Observar mudanças no comportamento dos usuários ao longo de períodos mais longos, como em workshops de várias semanas.
 * Reconsiderar o viés de auto-seleção nas entrevistas, em que os participantes podem já ter conhecimento sobre o tema, o que pode ter excluído usuários que não o consideraram útil.
@@ -80,18 +75,10 @@ TODO: experimentar a ferramenta e verificar se é possível utilizá-la para ava
 * Realizar abordagens quantitativas e controladas em partes da interface para responder a perguntas científicas específicas;
 * Aprimorar o sistema base;
 
-## Trabalhos relacionados
-* 
-* 
-
-## Outras publicações dos autores
-* 
-* 
 
 # Discussão
 
 * No contexto do projeto, é interessante uma ferramenta que serve para comparar resultados de diferentes modelos?
-
 * É interessante para usuários mais avançados que poderiam fazer o que é proposto utilizando python?
 
 # O que eu tenho a ver com isso?
